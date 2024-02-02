@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUSH</title>
+    <link rel="stylesheet" href="./style-page.css">
+    <link rel="stylesheet" href="./style-profiles.css">
     <style> 
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        
         .inicio{
-            z-index: 1;
-            position: fixed;
-            background-color: black;
-            width: 100%;
+            top: 0;
+            position: sticky;
+
+            background-color: red;
             color: white;
+        }
+        .curriculoRyan{
+            z-index: 2;
+        }
+        .curriculoFborsari{
+            margin-top: 25%;
+        }
+
+        .contactlipe{
+            display: flex;
         }
     
     </style>
@@ -19,9 +37,9 @@
 
     <!-------------------------------- INICIO -------------------------------->
     <section class="inicio"> 
-        <header>
+        <header class="header">
             <nav>
-                <ul> <h1>nosso header + navbar</h1>
+                <ul> Nosso header
                     <li>
                         
                     </li>
@@ -35,21 +53,47 @@
 
 <!-------------------------------- RYAN -------------------------------->
     <section class="curriculoRyan">
-        <h1>apenas para poder navegar</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempora aperiam architecto sunt id molestias nulla est animi magni culpa sequi laboriosam reprehenderit sapiente voluptate vitae, ut asperiores, dolorum magnam.
+        Telestias quia reprehenderit ab aspernatur tenetur quod error! Aliquid temporibus aspernatur quia debitis adipisci? Blanditiis nisi maxime, pariatur totam eaque obcaecati eum, aut velit voluptates consectetur numquam veniam quod.
+        Atque sit veniam rerum, eaque illo sapiente beatae voluptate quisquam nesciunt, quibusdam cumque. Possimus, velit quam unde officia aliquam cum alias aspernatur culpa ipsam dolores natus voluptatum voluptatibus harum quibusdam!</h1>
     </section>
 
 <!-------------------------------- FBORSARI -------------------------------->
 
     <section class="curriculoFborsari">
         <div class="container">
-            <div class="about">
+
+            <div class="aboutlipe">
                 <h1>Filipe Borsari</h1>
+                <li><strong>Area</strong><span> Data Analyst & Software Engineer </span> </li>
                 <hr>
                 <h2>About</h2> 
                 <p>Quem sou eu?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste consequuntur repellendus modi laudantium numquam molestias tenetur voluptatem quis obcaecati, unde enim, reprehenderit hic dolorem iusto eligendi. Impedit, deserunt dolorem!</p>
             </div>
-            <img src="" alt="">
-            
+            <div class="skillslipe">
+
+                <ul>
+                    <li><strong>Birthday</strong><span> 28 march </span> </li>
+                    <li><strong>City</strong><span> Caieiras - SP </span> </li>
+                    <li><strong>Degree</strong><span> Bachellor </span> </li>
+                    <li><strong>Email</strong><span> filipe.borsari@gmail.com </span> </li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tenetur dolorem accusamus iure asperiores ad earum magnam aut omnis porro facilis, fugiat molestias natus voluptate! Repudiandae minima dicta vitae amet!</p>
+                </ul>
+                
+            </div>
+
+
+
+            <img src="https://github.com/FilipeBorsari.png" alt="">
+
+            <div class="contactlipe">
+                    <h1><strong>Entre em contato comigo!</strong></h1>
+                    <div class="icons">
+                        <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="">
+                        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="">
+                    </div>
+            </div>
 
         </div>
 
@@ -64,7 +108,5 @@
     </section>
 
 
-
-    
 </body>
 </html>
